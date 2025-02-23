@@ -1,0 +1,44 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-custom-blocks-main-nav {
+	background-color: #1a5c7a;
+	color: #fff;
+	padding: 10 px 20px;
+	align-items: center;
+}
+ul {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	margin-right: 0 20px;
+}
+ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+ul li a:hover {
+	background-color: #1a5c7a;
+	color: #fff;
+}
+ 
+//  The above code is a simple example of how you can style your block. 
+//  The  .wp-block-custom-blocks-main-nav  class is the block’s wrapper class. You can use it to style the block as a whole. 
+//  The  ul  and  li  elements are the default HTML elements that the block uses to display the navigation. You can style them as you would any other list. 
+//  The  ul li a  selector is used to style the links in the navigation. 
+//  The  ul li a:hover  selector is used to style the links when they are hovered over. 
+//  You can add more styles to the block by adding more CSS to the file. 
+//  Step 4: Add the block to your theme 
+//  Now that you have created the block, you need to add it to your theme. 
+//  To do this, you need to enqueue the block’s stylesheet and JavaScript file in your theme’s  functions.php  file. 
+//  Open your theme’s  functions.php  file and add the following code:
